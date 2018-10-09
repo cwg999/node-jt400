@@ -18,7 +18,7 @@
     "build": "tsc",
     "build-dev": "tsc --watch",
     "test-dev": "mocha dist/test --watch",
-    "prepublishOnly": "npm run build && npm run test",
+    "prepublishOnly": "npm run build",
     "build-all": "npm run build && npm run build-java",
     "build-java": "ant archive -buildfile ./java"
   },
